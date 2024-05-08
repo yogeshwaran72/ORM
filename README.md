@@ -39,7 +39,7 @@ class Book(models.Model):
     book_price=models.IntegerField();
 class BookAdmin(admin.ModelAdmin):
     list_display=("title","author_name","book_id","number_of_pages","year_of_publishing","book_price",);
-
+    
 admin.py
 
 from django.contrib import admin
